@@ -11,6 +11,8 @@ import android.view.MenuItem;
 
 public class TestActivity extends AppCompatActivity {
 
+
+    private int testInt = 0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,7 +34,9 @@ public class TestActivity extends AppCompatActivity {
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_test, menu);
+        testInt = 3;
         return true;
+
     }
 
     @Override
