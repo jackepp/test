@@ -12,7 +12,7 @@ import android.view.MenuItem;
 public class TestActivity extends AppCompatActivity {
 
 
-    private int testInt = 2;
+    private int testInt = 5;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
