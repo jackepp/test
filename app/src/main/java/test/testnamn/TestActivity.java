@@ -45,6 +45,7 @@ public class TestActivity extends AppCompatActivity {
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
+        testInt = 2;
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
